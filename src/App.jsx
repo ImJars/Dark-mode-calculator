@@ -2,6 +2,7 @@ import React from 'react'
 import Toggle  from "react-toggle";
 import "react-toggle/style.css" // for ES6 modules
 
+
 function App() {
   return (
     <>
@@ -11,6 +12,9 @@ function App() {
       >
         Dark Mode
       </div>
+      <Toggle 
+       
+      />
     </>
   )
 }
